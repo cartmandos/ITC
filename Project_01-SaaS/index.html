@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ITC SaaS Assignment</title>
+    <link rel="stylesheet" href="/CSS/style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <main>
+      <section class="search">
+        <div class="search-bar">
+          <div class="search-bar-input">
+            <img src="./images/icon/other/search.svg" class="search-bar-icon" />
+            <input
+              class="global-search"
+              type="text"
+              placeholder="Global search"
+            />
+          </div>
+          <div class="search-bar-notification">
+            <img
+              src="./images/icon/other/notifications.svg"
+              class="search-notification-icon"
+            />
+            <span class="ellipse --notification"></span>
+          </div>
+        </div>
+      </section>
+      <section class="tasks-chart">
+        <div class="section-subject">
+          <p class="section-subject-title">Tasks</p>
+          <p class="section-filter">
+            Show:
+            <span class="filter-select --current-month">This month</span>
+            <img src="./images/icon/other/polygon.svg" />
+          </p>
+        </div>
+        <div class="section-info">
+          <div class="section-info-graph">
+            <img src="./images/graph/tasks_graph.svg" />
+          </div>
+          <ul class="section-info-legend">
+            <li class="legend-item">
+              <span class="ellipse --active"></span>Active
+            </li>
+            <li class="legend-item">
+              <span class="ellipse --completed"></span>Completed
+            </li>
+            <li class="legend-item">
+              <span class="ellipse --ended"></span>Ended
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section class="deals-graphic">
+        <div class="section-subject">
+          <p class="section-subject-title">Deals</p>
+          <p class="section-filter">
+            Show:
+            <span class="filter-select --by-month">Monthly</span>
+            <img src="./images/icon/other/polygon.svg" />
+          </p>
+        </div>
+        <div class="section-info">
+          <div class="section-info-graph">
+            <img src="./images/graph/deals_graph.svg" />
+          </div>
+          <ul class="section-info-legend">
+            <li class="legend-item">
+              <span class="ellipse --closed-deals"></span>Closed deals
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section class="tasks">
+        <div class="section-subject">
+          <p class="section-subject-title"></p>
+          <p class="section-filter">
+            Show:
+            <span class="filter-select --current-week">This week</span>
+            <img src="./images/icon/other/polygon.svg" />
+          </p>
+        </div>
+        <div class="section-info">
+          <p class="section-info-summary">8 task completed out of 10</p>
+          <div class="section-info-graph">
+            <div class="tasks-progress-bar">
+              <div class="progress-bar"></div>
+              <div class="progress-bar --tasks-progress-percent"></div>
+            </div>
+          </div>
+        </div>
+        <div class="calendar-widget --tasks">
+          <p class="calendar-date">23 December, Sunday</p>
+          <div class="calendar-view --week">
+            <div class="calendar-day">
+              <p class="calendar-day-name">Sun</p>
+              <p class="calendar-day-date --selected">23</p>
+            </div>
+            <div class="calendar-day">
+              <p class="calendar-day-name">Mon</p>
+              <p class="calendar-day-date">24</p>
+            </div>
+            <div class="calendar-day">
+              <p class="calendar-day-name">Tue</p>
+              <p class="calendar-day-date">25</p>
+            </div>
+            <div class="calendar-day">
+              <p class="calendar-day-name">Wed</p>
+              <p class="calendar-day-date">26</p>
+            </div>
+            <div class="calendar-day">
+              <p class="calendar-day-name">Thu</p>
+              <p class="calendar-day-date">27</p>
+            </div>
+            <div class="calendar-day">
+              <p class="calendar-day-name">Fri</p>
+              <p class="calendar-day-date">28</p>
+            </div>
+            <div class="calendar-day">
+              <p class="calendar-day-name">Sat</p>
+              <p class="calendar-day-date">29</p>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-header">
+            <p class="card-header-message">Send benefit review by Sunday</p>
+            <p class="card-header-title">Reminder</p>
+          </div>
+          <div class="card-subheader">
+            <p class="card-subheader-info">
+              Due date:<span>December 23, 2018</span>
+            </p>
+          </div>
+          <div class="card-assignee">
+            <img
+              class="card-assignee-avatar"
+              src="./images/avatar/avatar_tasks1.png"
+            />
+            <p class="card-assignee-name">George Fields</p>
+          </div>
+          <div class="card-status">
+            <div class="card-status-action --hide">
+              <img src="./images/icon/action/edit.svg" />
+              <img src="./images/icon/action/delete.svg" />
+            </div>
+            <p class="card-status --completed">Completed</p>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-header">
+            <p class="card-header-message">Invite to office meet-up</p>
+            <p class="card-header-title">Call</p>
+          </div>
+          <div class="card-subheader">
+            <p class="card-subheader-info">
+              Due date:<span>December 23, 2018</span>
+            </p>
+          </div>
+          <div class="card-assignee">
+            <img
+              class="card-assignee-avatar"
+              src="./images/avatar/avatar_tasks2.png"
+            />
+            <p class="card-assignee-name">Rebecca Moore</p>
+          </div>
+          <div class="card-status">
+            <div class="card-status-action">
+              <img src="./images/icon/action/edit.svg" />
+              <img src="./images/icon/action/delete.svg" />
+            </div>
+            <p class="card-status --ended">Ended</p>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-header">
+            <p class="card-header-message">Office meet-up</p>
+            <p class="card-header-title">Event</p>
+          </div>
+          <div class="card-subheader">
+            <p class="card-subheader-info">
+              Due date:<span>December 23, 2018</span>
+            </p>
+          </div>
+          <div class="card-assignee">
+            <img
+              class="card-assignee-avatar"
+              src="./images/avatar/avatar_tasks3.png"
+            />
+            <p class="card-assignee-name">Lindsey Stroud</p>
+          </div>
+          <div class="card-status">
+            <div class="card-status-action">
+              <img src="./images/icon/action/edit.svg" />
+              <img src="./images/icon/action/delete.svg" />
+            </div>
+            <p class="card-status --completed">Completed</p>
+          </div>
+        </div>
+        <div class="extend-cards">Show more</div>
+      </section>
+    </main>
+    <section class="side-bar">
+      <div class="dashboard">
+        <p class="dashboard-title">SaaS Kit</p>
+        <div class="dashboard-profile">
+          <img class="profile-photo" src="./images/avatar/profile_photo.png" />
+          <p class="profile-username">Sierra Ferguson</p>
+          <p class="profile-email">s.ferguson@gmail.com</p>
+        </div>
+        <nav>
+          <ul class="dashboard-nav">
+            <li class="dashboard-item">
+              <p class="--selected">
+                <img
+                  class="dashboard-item-img"
+                  src="./images/dashboard/dashboard-active.svg"
+                />
+                Dashboard
+              </p>
+            </li>
+            <li class="dashboard-item">
+              <p class="">
+                <img
+                  class="dashboard-item-img"
+                  src="./images/dashboard/tasks.svg"
+                />
+                Tasks
+              </p>
+            </li>
+            <li class="dashboard-item">
+              <p class="">
+                <img
+                  class="dashboard-item-img"
+                  src="./images/dashboard/email.svg"
+                />
+                Email
+              </p>
+            </li>
+            <li class="dashboard-item">
+              <p class="">
+                <img
+                  class="dashboard-item-img"
+                  src="./images/dashboard/contacts.svg"
+                />
+                Contacts
+              </p>
+            </li>
+            <li class="dashboard-item">
+              <p class="">
+                <img
+                  class="dashboard-item-img"
+                  src="./images/dashboard/chat.svg"
+                />
+                Chat
+              </p>
+            </li>
+            <li class="dashboard-item">
+              <p class="">
+                <img
+                  class="dashboard-item-img"
+                  src="./images/dashboard/deals.svg"
+                />
+                Deals
+              </p>
+            </li>
+            <li class="dashboard-item">
+              <p class="">
+                <img
+                  class="dashboard-item-img"
+                  src="./images/dashboard/settings.svg"
+                />
+                Settings
+              </p>
+            </li>
+          </ul>
+        </nav>
+        <div class="toggle-sidebar">
+          <p><img src="./images/icon/action/toggle.svg" />Toggle sidebar</p>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
